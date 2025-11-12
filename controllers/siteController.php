@@ -21,7 +21,7 @@ function showMenu()
     global $header;
     global $footer;
 
-    $menu = getMenu();
+    $items = getMenu();
 
     include $header;
     include __DIR__ . '/../views/menu.php';
